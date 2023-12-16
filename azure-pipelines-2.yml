@@ -21,6 +21,7 @@ variables:
 
 stages:
 - stage: Build
+  pool: self-hosted
   displayName: Build and push stage
   jobs:
   - job: Build
